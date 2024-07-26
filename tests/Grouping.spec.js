@@ -15,7 +15,7 @@ test.afterAll(()=>{
     console.log('After All')
 })
 
-test.describe.only('Group 1',()=>{
+test.describe('Group 1',()=>{
    test('smoke',async({page})=>{
       console.log("i am from smoke")
    })
