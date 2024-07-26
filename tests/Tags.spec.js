@@ -14,5 +14,5 @@ test('test4@regression',async({page})=>{
     console.log(' i am from test4')
 })
 test('test5@regression@sanity',async({page})=>{
-    console.log(' i am from test4')
+    console.log(' i am from test5')
 })
