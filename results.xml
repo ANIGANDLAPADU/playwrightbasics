@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.425006999999999">
+<testsuite name="InputBox.spec.js" timestamp="2024-07-29T01:25:49.978Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.52" errors="0">
+<testcase name="Input Box" classname="InputBox.spec.js" time="5.52">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\InputBox-Input-Box-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
