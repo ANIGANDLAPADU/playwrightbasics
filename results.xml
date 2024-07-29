@@ -1,9 +1,20 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.425006999999999">
-<testsuite name="InputBox.spec.js" timestamp="2024-07-29T01:25:49.978Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.52" errors="0">
-<testcase name="Input Box" classname="InputBox.spec.js" time="5.52">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.398618">
+<testsuite name="AutoSuggestDropDown.spec.js" timestamp="2024-07-29T07:10:56.341Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.815" errors="0">
+<testcase name="AutoSuggest" classname="AutoSuggestDropDown.spec.js" time="7.815">
+<properties>
+<property name="slow" value="">
+</property>
+<property name="slow" value="">
+</property>
+<property name="slow" value="">
+</property>
+</properties>
 <system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\InputBox-Input-Box-chromium\trace.zip]]
+<![CDATA[[36m[AsyncFunction: innerText][39m
+[36m[AsyncFunction: innerText][39m
+[36m[AsyncFunction: innerText][39m
+
+[[ATTACHMENT|test-results\AutoSuggestDropDown-AutoSuggest-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>

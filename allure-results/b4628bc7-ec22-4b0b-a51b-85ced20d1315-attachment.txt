@@ -1,0 +1,3 @@
+[AsyncFunction: innerText]
+[AsyncFunction: innerText]
+[AsyncFunction: innerText]

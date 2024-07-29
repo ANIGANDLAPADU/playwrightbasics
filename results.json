@@ -71,19 +71,29 @@
   },
   "suites": [
     {
-      "title": "InputBox.spec.js",
-      "file": "InputBox.spec.js",
+      "title": "AutoSuggestDropDown.spec.js",
+      "file": "AutoSuggestDropDown.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Input Box",
+          "title": "AutoSuggest",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 30000,
-              "annotations": [],
+              "timeout": 810000,
+              "annotations": [
+                {
+                  "type": "slow"
+                },
+                {
+                  "type": "slow"
+                },
+                {
+                  "type": "slow"
+                }
+              ],
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
@@ -91,17 +101,27 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5520,
+                  "duration": 7815,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[36m[AsyncFunction: innerText]\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[36m[AsyncFunction: innerText]\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[36m[AsyncFunction: innerText]\u001b[39m\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-07-29T01:25:50.666Z",
+                  "startTime": "2024-07-29T07:10:56.978Z",
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "D:\\projects\\playwrightautomation_vsext\\test-results\\InputBox-Input-Box-chromium\\trace.zip"
+                      "path": "D:\\projects\\playwrightautomation_vsext\\test-results\\AutoSuggestDropDown-AutoSuggest-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -109,8 +129,8 @@
               "status": "expected"
             }
           ],
-          "id": "c81a1fec6a4d0ed3747b-d078d87d32e9df0526c8",
-          "file": "InputBox.spec.js",
+          "id": "33be04048b52fba44930-3ef296383ce1bfa16b41",
+          "file": "AutoSuggestDropDown.spec.js",
           "line": 2,
           "column": 5
         }
@@ -119,8 +139,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-07-29T01:25:49.935Z",
-    "duration": 9425.007,
+    "startTime": "2024-07-29T07:10:56.232Z",
+    "duration": 9398.618,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
